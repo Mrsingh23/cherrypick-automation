@@ -5,4 +5,10 @@ public class IncomeVerificationImpl implements IncomeVerification{
     public boolean isEmployeeWorkingFromHome() {
         return false;
     }
+
+
+    @Override
+    public boolean isDoingMultipleJob() {
+        return false;
+    }
 }
